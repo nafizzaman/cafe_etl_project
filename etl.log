@@ -1,0 +1,10 @@
+2025-06-19 17:04:24,436 - Ran full ETL pipeline
+2025-06-19 17:11:39,402 - Extracted data from data/orders.csv
+2025-06-19 17:12:53,854 - Failed to extract: File not found (s)
+2025-06-19 17:13:21,506 - Failed to extract: File not found (& C:/Users/nafiz/AppData/Local/Programs/Python/Python310/python.exe c:/Users/nafiz/Desktop/cafe_etl_project/main.py)
+2025-06-19 17:13:36,448 - Failed to extract: File not found (& C:/Users/nafiz/AppData/Local/Programs/Python/Python310/python.exe c:/Users/nafiz/Desktop/cafe_etl_project/main.py)
+2025-06-19 17:13:52,555 - Failed to extract: File not found (& C:/Users/nafiz/AppData/Local/Programs/Python/Python310/python.exe c:/Users/nafiz/Desktop/cafe_etl_project/ui/cli.py)
+2025-06-19 17:14:07,415 - Failed to extract: File not found (0)
+2025-06-19 17:14:35,407 - Extracted data from data/orders.csv
+2025-06-19 17:14:40,404 - Transformed data (PII removed, cleaned)
+2025-06-19 17:14:41,621 - Loaded data into SQL Server

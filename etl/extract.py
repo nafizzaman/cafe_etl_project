@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-def extract_orders(csv_path='data/orders.csv'):
+def extract_orders(csv_path):
     if not os.path.exists(csv_path):
         raise FileNotFoundError(f"File not found: {csv_path}")
     

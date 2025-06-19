@@ -29,8 +29,15 @@ def cli_menu():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            df_raw = extract_orders()
-            logging.info("Extracted data from CSV")
+            file_path = input("Enter path to CSV file (or press Enter for default which is data/orders.csv)): ").strip()
+            if file_path == "":
+                file_path = "data/orders.csv"
+            try:
+                df_raw = extract_orders(file_path)
+                logging.info(f"Extracted data from {file_path}")
+            except FileNotFoundError:
+                print(f"[!] File not found: {file_path}")
+                logging.warning(f"Failed to extract: File not found ({file_path})")
         elif choice == '2':
             if df_raw is None:
                 print("[!] Please run extraction first.")
