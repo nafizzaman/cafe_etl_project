@@ -1,0 +1,11 @@
+Drink,Qty,Price,Branch,Payment Type,Date/Time
+Latte,2,3.5,Epsom,Card,2024-08-12 09:30:00
+Espresso,1,2.0,Kingston,Cash,2024-08-12 10:05:00
+Americano,1,2.8,Epsom,Card,2024-08-12 10:45:00
+Cappuccino,3,3.2,Richmond,Card,2024-08-12 11:15:00
+Flat White,2,3.0,Epsom,Cash,2024-08-12 12:00:00
+Mocha,1,3.6,Kingston,Card,2024-08-12 13:20:00
+Latte,1,3.5,Richmond,Card,2024-08-12 14:40:00
+Espresso,2,2.0,Epsom,Cash,2024-08-12 15:10:00
+Cappuccino,1,3.2,Kingston,Card,2024-08-12 16:30:00
+Americano,2,2.8,Richmond,Cash,2024-08-12 17:00:00
