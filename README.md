@@ -57,7 +57,7 @@ docker-compose -f docker/docker-compose.yml up -d
 ### 2. 🧰 Set Up Your Python Environment
 
 ```bash
-pip install -r requirements.txt
+pip install pandas pyodbc python-dotenv
 ```
 
 > Ensure ODBC Driver 17 or 18 for SQL Server is installed on your system.
