@@ -57,7 +57,7 @@ docker-compose -f docker/docker-compose.yml up -d
 ### 2. 🧰 Set Up Your Python Environment
 
 ```bash
-pip install -r requirements.txt
+pip install pandas pyodbc python-dotenv
 ```
 
 > Ensure ODBC Driver 17 or 18 for SQL Server is installed on your system.
@@ -84,24 +84,14 @@ Or paste the contents of `init.sql` manually.
 
 ### 🖥️ CLI Version
 ```bash
-python main.py
+python main_cli.py
 ```
 
 ### 🪟 GUI Version
 
-In `main.py`, use:
-
-```python
-from ui.gui import run_gui
-run_gui()
-```
-
-Then run:
-
 ```bash
-python main.py
+python main_gui.py
 ```
-
 ---
 
 ## ✅ Features
@@ -122,14 +112,6 @@ python main.py
 Customer Name,Drink,Qty,Price,Branch,Payment Type,Card Number,Date/Time
 Dave,Latte,2,3.50,Epsom,Card,1234567812345678,2024-08-12 09:30
 ```
-
----
-
-## 📚 Client Deliverables
-
-- ✔️ **Product Demo**: ETL working via CLI & GUI
-- ✔️ **Client Presentation**: Benefits of digitisation (e.g. speed, reporting, security)
-- ✔️ **Whiteboard Session**: Architecture, alternatives, design decisions
 
 ---
 
