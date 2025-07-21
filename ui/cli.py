@@ -58,10 +58,17 @@ def cli_menu():
         elif choice == '5':
             clear_screen()
         elif choice == '6':
-            df_raw = extract_orders()
-            df_clean = transform_orders(df_raw)
-            load_to_sql(df_clean)
-            logging.info("Ran full ETL pipeline")
+            file_path = input("Enter path to CSV file (or press Enter for default which is data/orders.csv)): ").strip()
+            if file_path == "":
+                file_path = "data/orders.csv"
+            try:
+                df_raw = extract_orders(file_path)
+                df_clean = transform_orders(df_raw)
+                load_to_sql(df_clean)
+                logging.info("Ran full ETL pipeline")
+            except FileNotFoundError:
+                print(f"[!] File not found: {file_path}")
+                logging.warning(f"Failed to extract: File not found ({file_path})")
         elif choice == '7':
             if df_clean is not None:
                 df_clean.to_csv("output.csv", index=False)

@@ -8,3 +8,5 @@
 2025-06-19 17:14:35,407 - Extracted data from data/orders.csv
 2025-06-19 17:14:40,404 - Transformed data (PII removed, cleaned)
 2025-06-19 17:14:41,621 - Loaded data into SQL Server
+2025-07-21 22:42:04,453 - Extracted data from data/orders.csv
+2025-07-21 22:46:22,566 - Ran full ETL pipeline
