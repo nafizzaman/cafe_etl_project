@@ -10,3 +10,7 @@
 2025-06-19 17:14:41,621 - Loaded data into SQL Server
 2025-07-21 22:42:04,453 - Extracted data from data/orders.csv
 2025-07-21 22:46:22,566 - Ran full ETL pipeline
+2025-07-21 22:54:38,306 - Ran full ETL pipeline
+2025-07-21 22:54:44,199 - Exported cleaned data to output.csv
+2025-07-21 23:26:57,032 - Ran full ETL pipeline
+2025-07-21 23:27:03,193 - Exported cleaned data to output.csv
